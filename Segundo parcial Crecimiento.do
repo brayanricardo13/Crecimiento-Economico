@@ -16,6 +16,10 @@ tsline Vtrabajadores
 tsline Vshockcapital 
 tsline PMF
 
-tsline Produccion Trabajadores ShockCapital
+tsline VProduccion2 Vtrabajadores2 Vshockcapital2 PMF
 
+twoway (bar Produccion year) (line Vproduccion year, yaxis(2))
 
+twoway (bar Trabajadores year) (line Vtrabajadores year, yaxis(2))
+
+twoway (bar ShockCapital year) (line Vshockcapital  year, yaxis(2))
